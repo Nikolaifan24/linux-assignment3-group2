@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ls",
+    "description": "List files and directories in the current directory.",
+    "usage": "ls [options] [directory]",
+    "options": ["-l: long format", "-a: show hidden files", "-R: recursive"],
+    "example": "ls -la"
+  },
+  {
+    "name": "cd",
+    "description": "Change the current working directory.",
+    "usage": "cd [directory]",
+    "options": ["~: home directory", "..: parent directory"],
+    "example": "cd /home/user"
+  },
+  {
+    "name": "pwd",
+    "description": "Print the current working directory.",
+    "usage": "pwd",
+    "options": [],
+    "example": "pwd"
+  },
+  {
+    "name": "mkdir",
+    "description": "Create a new directory.",
+    "usage": "mkdir [directory_name]",
+    "options": ["-p: create parent directories as needed"],
+    "example": "mkdir new_folder"
+  },
+  {
+    "name": "rm",
+    "description": "Remove files or directories.",
+    "usage": "rm [options] file",
+    "options": ["-r: recursive for directories", "-f: force"],
+    "example": "rm -rf folder"
+  },
+  {
+    "name": "cp",
+    "description": "Copy files and directories.",
+    "usage": "cp source destination",
+    "options": ["-r: recursive for directories"],
+    "example": "cp file.txt backup/"
+  },
+  {
+    "name": "mv",
+    "description": "Move or rename files and directories.",
+    "usage": "mv source destination",
+    "options": [],
+    "example": "mv oldname newname"
+  },
+  {
+    "name": "ps",
+    "description": "Display information about running processes.",
+    "usage": "ps [options]",
+    "options": ["-aux: show all processes"],
+    "example": "ps aux"
+  },
+  {
+    "name": "top",
+    "description": "Display and monitor running processes in real-time.",
+    "usage": "top",
+    "options": [],
+    "example": "top"
+  }
+]
