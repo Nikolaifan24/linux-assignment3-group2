@@ -1,6 +1,6 @@
 
 using System.Text.Json.Serialization;
-public class LinuxComands{
+public class LinuxCommand{
 
     [JsonPropertyName("name")]
     public string Name { get; set; } = string.Empty;
